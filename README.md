@@ -1,6 +1,6 @@
 # Document
 
-#### 1.outputQRCodeBase64: function (text, options)
+#### 1. outputQRCodeBase64: function (text, options)
 
 描述:
 
@@ -26,7 +26,7 @@ options：
 
 -   二维码图片的 base64 数据
 
-#### 2.drawQRCodeToCanvas: function (text, options)
+#### 2. drawQRCodeToCanvas: function (text, options)
 
 描述:
 
