@@ -1,13 +1,16 @@
 # Document
 
-1.  outputQRCodeBase64: function (text, options)
-    描述
-    以 base64 图片格式输出二维码
+## 1.outputQRCodeBase64: function (text, options)
 
-参数
-text：必须，二维码内容，比如 url
+描述:
 
-options：参数对象
+-   以 base64 图片格式输出二维码
+
+参数:
+
+-   text：必须，二维码内容，比如 url
+
+options：
 
 ```
 {
@@ -19,10 +22,12 @@ options：参数对象
 }
 ```
 
-返回值
-二维码图片的 base64 数据
+返回值:
 
-2.  drawQRCodeToCanvas: function (text, options)
+-   二维码图片的 base64 数据
+
+## 2.drawQRCodeToCanvas: function (text, options)
+
     描述
     绘制二维码到 canvas
 
@@ -47,11 +52,11 @@ options：参数对象
 返回值
 无返回值
 
---------------------------------------------- Demo -------------------------------------------
+# Demo
+
+-   wxml:
 
 ```
-wxml:
-
 <view class="qrcode0">
     <image mode="widthFix" src="{{qrcode0}}"></image>
 </view>
@@ -63,9 +68,9 @@ wxml:
 </view>
 ```
 
-```
-wxjs:
+-   wxjs:
 
+```
 const qrcode = require('../../lib/qrcode/index');
 
 Page({
