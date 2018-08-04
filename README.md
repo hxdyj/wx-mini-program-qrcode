@@ -26,6 +26,8 @@
 
 -   二维码图片的 base64 数据
 
+---
+
 #### 2. drawQRCodeToCanvas: function (text, options)
 
 **_描述:_**
@@ -54,8 +56,6 @@
 **_返回值：_**
 
 -   无返回值
-
----
 
 # Demo
 
