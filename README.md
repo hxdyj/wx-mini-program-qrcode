@@ -1,6 +1,6 @@
 # Document
 
-## 1.outputQRCodeBase64: function (text, options)
+## outputQRCodeBase64: function (text, options)
 
 描述:
 
