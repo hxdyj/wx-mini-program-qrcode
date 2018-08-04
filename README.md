@@ -2,15 +2,15 @@
 
 #### 1. outputQRCodeBase64: function (text, options)
 
-描述:
+**_描述:_**
 
 -   以 base64 图片格式输出二维码
 
-参数:
+**_参数:_**
 
 -   text：必须，二维码内容，比如 url
 
-options：
+**_options：_**
 
 ```
 {
@@ -22,21 +22,21 @@ options：
 }
 ```
 
-返回值:
+**_返回值:_**
 
 -   二维码图片的 base64 数据
 
 #### 2. drawQRCodeToCanvas: function (text, options)
 
-描述:
+**_描述:_**
 
 -   绘制二维码到 canvas
 
-参数:
+**_参数:_**
 
 -   text：必须，二维码内容，比如 url
 
-options：
+**_options：_**
 
 ```
 {
@@ -51,9 +51,11 @@ options：
 }
 ```
 
-返回值：
+**_返回值：_**
 
 -   无返回值
+
+---
 
 # Demo
 
