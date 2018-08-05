@@ -76,7 +76,7 @@
 #### js:
 
 ```
-const qrcode = require('../../lib/qrcode/index');
+const qrcode = require('../lib/qrcode.js');
 
 Page({
     data: {
